@@ -1,0 +1,10 @@
+type: sqliteexporter
+scope_name: otelcol/sqliteexporter
+
+status:
+  class: exporter
+  stability:
+    beta: [logs] # specify which signals you support
+  distributions: [contrib]
+  codeowners:
+    active: [vyasn30]

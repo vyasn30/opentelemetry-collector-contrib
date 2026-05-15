@@ -37,5 +37,7 @@ func createLogsExporter(
 		set,
 		cfg,
 		exp.pushLogs,
+		exporterhelper.WithStart(exp.start),
+		exporterhelper.WithShutdown(exp.shutdown),
 	)
 }
